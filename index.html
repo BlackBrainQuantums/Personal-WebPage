@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Job Application</title>
+  <link rel="stylesheet" href="styles">
+
+</head>
+
+<body>
+
+  <div class="jobApp">
+    <h2>Job Application (Web)</h2>
+    <form action="#" method="POST">
+      <div class="form-group">
+        <label for="name">First Name</label>
+
+        <input type="text" id="name" name="name" required>
+
+        <label for="name">Last Name</label>
+
+        <input type="text" id="name" name="name" required>
+
+
+      </div>
+
+      <div class="form-group">
+
+        <label for="name">Address</label>
+
+        <textarea rows="6" cols="50" id="address" name="address" required placeholder="Type Here"> </textarea>
+
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="cv">CV (Upload)</label>
+        <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
+      </div>
+      <div class="form-group">
+        <label for="start-date">Start Date</label>
+        <input type="date" id="start-date" name="start-date" required>
+      </div>
+
+      <div class="form-group">
+        <label for="job-role">Job Role</label>
+        <select id="job-role" name="job-role" required>
+          <option value="" disabled selected hidden>Choose role</option>
+          <option value="front-end">Front-End Developer</option>
+          <option value="back-end">Back-End Developer</option>
+          <option value="fullstack">Fullstack Developer</option>
+        </select>
+      </div>
+
+      <button type="submit">Apply Now</button>
+
+    </form>
+  </div>
+</body>
+
+</html>
